@@ -1,0 +1,43 @@
+<div>
+    <div>
+        <h1>
+            Our Pricing
+        </h1>
+        <p>
+            Choose the offering that works best for you
+        </p>
+    </div>
+    <div>
+        <div>
+            {% for price in prices %}
+            <a href="{{{price.href}}}">
+                <div class="price-item">
+                    <div class="header-price-item">
+                        <p>
+                            {{{price.title}}}
+                        </p>
+                    </div>
+                    <div>
+                        <p>
+                            <span>{{{price.cost}}}</span>
+                            <span>{{{price.currency}}}</span>
+                        </p>
+                        <p>
+                            {{{price.description}}}
+                        </p>
+                    </div>
+                    <div>
+                        <ul>
+                            {% for item in price.items %}
+                            <li>
+                                {{{item.title}}}
+                            </li>
+                            {% endfor %}
+                        </ul>                    
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
