@@ -11,9 +11,7 @@
 		{
 			"name": "Landing",
 			"url": "/landing",
-			"items": [
-				
-			]
+			"items": []
 		},
 		{
 			"name": "Pricing",
