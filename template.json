@@ -9,11 +9,6 @@
 	"scss": "scss/index.scss",
 	"items": [
 		{
-			"name": "Landing",
-			"url": "/landing",
-			"items": []
-		},
-		{
 			"name": "Pricing",
 			"url": "/pricing",
 			"items": [
@@ -23,13 +18,6 @@
 		{
 			"name": "Blogs",
 			"url": "/blogs",
-			"items": [
-				
-			]
-		},
-		{
-			"name": "Blog",
-			"url": "/blog",
 			"items": [
 				
 			]
